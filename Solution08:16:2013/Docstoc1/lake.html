@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Lake and Containers</title>
+		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="lake.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link type="image/x-icon" href="LC.GIF" rel="Shortcut Icon"/>
+		<!--<link rel="stylesheet" type="text/css" href="lake1.css">-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar navbar-inverse">
+  				<a class="navbar-brand container"><h2>Lake And Containers</h2></a>
+			</div>
+		</div>
+		
+		<div class="container">
+			<h3>The problem is....</h3>
+				<p>There is a lake with unlimited amount of water, given two containers X and Y need to measure exactly Z amount.<br/>An example is X = 3, Y = 5, and Z = 4.</p>
+		</div>
+
+		<div class="container">
+		<form class="form-inline">
+			<label for="xinput">X:</label>
+  			<input type="number" class="form-control" name="xinput" id="xinput" placeholder="BucketX capacity">
+  			<label for="yinput">Y:</label>
+  			<input type="number" class="form-control" name="yinput" id="yinput" placeholder="BucketY capacity">
+  			<label for="zinput">Z:</label>
+  			<input type="number" class="form-control" name="zinput" id="zinput" placeholder="Desired Volume">
+      	  	<button id="sbutton" type="button" class="btn btn-inverse">Calculate</button>
+      	  	<button id="rbutton" type="button" class="btn btn-inverse">Reset</button>
+		</form>
+		</div>
+		<div id="result" class="container">
+		</div>
+	</body>
+</html>

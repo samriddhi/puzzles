@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Lake and Containers</title>
+		<link type="image/x-icon" href="LC.GIF" rel="Shortcut Icon"/>
+		<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="lake.js"></script>
+		<link rel="stylesheet" type="text/css" href="lake.css">								<!--external style sheet -->	
+	</head>
+	<body>
+		<div id="bcolor">
+			<h1>Lake and Containers</h1>
+			<div id="problem">
+				<h3>The problem </h3>
+				<article id="statement">
+					There is a lake with unlimited amount of water, given two containers X and Y need to measure exactly Z amount.<br/>An example is X = 3, Y = 5, and Z = 4.
+				</article>
+				</div><br/>
+			<form>
+				X: <input class="input" type="number" name="xinput" placeholder="BucketX capacity"><span class="required">*required</span><br/><br/>
+				Y: <input class="input" type="number" name="yinput" placeholder="BucketY capacity"><span class="required">*required</span><br/><br/>
+				Z: <input class="input" type="number" name="zinput" placeholder="Desired Volume"><span class="required">*required</span><br/><br/>
+				<button id="sbutton" class="button" type="button" name="submitbutton">Calculate</button>
+				<button id="rbutton" class="button "type="reset" name="resetbutton">Reset</button>
+			</form>
+			<div id="result"></div>
+	</div> 
+	</body>
+</html>
